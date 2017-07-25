@@ -385,7 +385,7 @@ See https://docs.angularjs.org/api/ng/filter/orderBy for more details.
   </select>
   <!-- other html code -->
   <ul>
-      <li ng-repeat="friend in friends | filter: friendFilter | orderBy: sortDirection + sortProp ">
+      <li ng-repeat="friend in friends | filter: friendFilter | orderBy: sortDirection +"" + sortProp ">
         <!-- other html code -->
       </li>
   </ul>
